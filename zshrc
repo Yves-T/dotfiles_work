@@ -48,3 +48,6 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$PATH:bin:/opt/boxen/rbenv/shims:/opt/boxen/rbenv/bin:/opt/boxen/rbenv/plugins/ruby-build/bin:node_modules/.bin:/opt/boxen/nodenv/shims:/opt/boxen/nodenv/bin:/opt/boxen/bin:/opt/boxen/homebrew/bin:/opt/boxen/homebrew/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Users/yves/bin:/usr/local/mysql-5.6.11-osx10.7-x86_64/bin
 
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
+
+# Set macvim as default editor for git
+export GIT_EDITOR='/Applications/MacVim.app/Contents/MacOS/Vim -g -f'
