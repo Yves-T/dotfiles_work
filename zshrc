@@ -44,7 +44,8 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home
+#export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home
 #export JAVA_HOME=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
 
 #Configure derby
@@ -57,3 +58,10 @@ export PATH=$PATH:bin:/opt/boxen/rbenv/shims:/opt/boxen/rbenv/bin:/opt/boxen/rbe
 
 # Set macvim as default editor for git
 export GIT_EDITOR='/Applications/MacVim.app/Contents/MacOS/Vim -g -f'
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+export PATH=/usr/local/bin:$PATH
+
+# Change root shell prompt
+export SUDO_PS1="\[\e[33;1;41m\][\u] \w \$\[\e[0m\] "
