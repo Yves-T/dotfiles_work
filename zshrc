@@ -52,7 +52,7 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home
 export DERBY_HOME=/Library/derby 
 
 # Customize to your needs...
-export PATH=$PATH:bin:/opt/boxen/rbenv/shims:/opt/boxen/rbenv/bin:/opt/boxen/rbenv/plugins/ruby-build/bin:node_modules/.bin:/opt/boxen/nodenv/shims:/opt/boxen/nodenv/bin:/opt/boxen/bin:/opt/boxen/homebrew/bin:/opt/boxen/homebrew/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Users/yves/bin:/usr/local/mysql-5.6.11-osx10.7-x86_64/bin:$DERBY_HOME/bin
+export PATH=$PATH:bin:/Users/yves/local/node/bin:/opt/boxen/rbenv/shims:/opt/boxen/rbenv/bin:/opt/boxen/rbenv/plugins/ruby-build/bin:node_modules/.bin:/opt/boxen/nodenv/shims:/opt/boxen/nodenv/bin:/opt/boxen/bin:/opt/boxen/homebrew/bin:/opt/boxen/homebrew/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Users/yves/bin:/usr/local/mysql-5.6.11-osx10.7-x86_64/bin:$DERBY_HOME/bin
 
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
 
@@ -65,3 +65,6 @@ export PATH=/usr/local/bin:$PATH
 
 # Change root shell prompt
 export SUDO_PS1="\[\e[33;1;41m\][\u] \w \$\[\e[0m\] "
+
+# android
+export PATH=${PATH}:/Users/yves/android\ bundle/sdk/platform-tools:/Users/yves/android\ bundle/sdk/tools
